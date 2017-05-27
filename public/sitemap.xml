@@ -77,6 +77,12 @@
   </url>
   
   <url>
+    <loc>http://cheesycloud.com/lynn/</loc>
+    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://cheesycloud.com/lynn/tags/programming/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
     <priority>0</priority>
@@ -109,12 +115,6 @@
   <url>
     <loc>http://cheesycloud.com/lynn/tags/theme/</loc>
     <lastmod>2015-10-02T21:49:20+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://cheesycloud.com/lynn/</loc>
-    <lastmod>2015-10-10T13:07:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
