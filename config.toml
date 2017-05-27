@@ -1,4 +1,4 @@
-baseurl = "https://example.org"
+baseurl = "http://cheesycloud.com/lynn/"
 title = "Universal"
 theme = "hugo-universal-theme"
 languageCode = "en-us"
@@ -26,12 +26,12 @@ paginate = 10
 
 [params]
     viewMorePostLink = "#"
-    author = "DevCows"
-    defaultKeywords = ["devows", "hugo", "go"]
-    defaultDescription = "Site template made by devcows using hugo"
+    author = "MrWinters"
+    defaultKeywords = ["interior design", "hunter douglas", "swag"]
+    defaultDescription = "Lynn Elizabeth Interiors"
 
     # Google Maps API key (if not set will default to not passing a key.)
-    googleMapsApiKey = ""
+    googleMapsApiKey = "AIzaSyAKb4QKKwUiJSye_Fy5ZvMaJX7k1GqwKzo"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "marsala"
@@ -49,26 +49,25 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "your@email.com"
+    email = "lynnelizabethinteriors@gmail.com"
 
     about_us = "<p>Lynn Elizabeth Interiors was born from a dream and desire to transform any space, window or room into a masterpiece. With years of experience behind us, we're the right company for you.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    copyright = "Copyright (c) 2017, Lynn Elizabeth Interiors; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
     logo = "img/logo_plain.png"
-    address = """<p><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
+    address = """<p><strong>Lynn Elizabeth Interiors</strong>
+        <br>Greenville, SC
+        <br>29615
         <br>
-        <strong>Great Britain</strong>
+        <strong>United States</strong>
       </p>
       """
-    latitude = "-12.043333"
-    longitude = "-77.028333"
+    latitude = "34.8331484"
+    longitude = "-82.4328705"
+
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
@@ -103,12 +102,12 @@ paginate = 10
     enable = true
     icon = "fa fa-file-code-o"
     title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
+    subtitle = "Contact us today for a free consultation with Lynn! You WON'T be dissapointed!"
+    link_url = "/contact/"
+    link_text = "Contact Us!"
 
 [params.clients]
-    enable = true
+    enable = false
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
@@ -116,6 +115,6 @@ paginate = 10
     subtitle = ""
 
 [params.recent_posts]
-    enable = true
+    enable = false
     title = "From our blog"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
